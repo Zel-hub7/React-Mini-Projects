@@ -1,8 +1,11 @@
-const App = () => {
+import SimpleInput from './components/SimpleInput';
+
+function App() {
   return (
-    <div>
-      Hello App
+    <div className="app">
+      <SimpleInput />
     </div>
-  )
+  );
 }
+
 export default App;
